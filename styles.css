@@ -1,0 +1,127 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+body {
+   background-color: #aac583;
+}
+.cabecalho {
+    background-image: linear-gradient(180deg, #517736, #213612 30%);
+    background-attachment: fixed;
+    margin-top: -22px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif
+}
+h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: 500px;
+    text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 50px;
+    text-shadow: 2px 2px 5px #080c047b;
+}
+.paragrafo-menu {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    text-shadow: 2px 2px 5px #080c047b;
+    max-width: 600px;
+}
+nav > a {
+    text-decoration: none;
+    color: rgb(140, 185, 105);
+    padding: 10px;
+}
+nav > a:hover {
+    background-color: #79A637;
+    color: white;
+    border-radius: 10px;
+}
+main {
+    background-color: #e1eac5;
+    margin: auto;
+    min-width: 320px;
+    max-width: 800px;
+    padding: 50px;
+    padding-top: -20px;
+    text-align: justify;
+    box-shadow: 10px 10px 10px #636a505a;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+img {
+    width: 100%;
+}
+div.video {
+    background-color: #959e7b;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+h2 {
+    font-family: idroid;
+    color: #467326;
+    font-size: 30px;
+    padding: 5px;
+    text-shadow: 1px 1px 5px #080c0456;
+}
+main > p {
+    text-align-last: left;
+    font-size: 20px;
+    text-indent: 30px;
+}
+h3 {
+    font-family: idroid;
+    color:#e1eac5;
+    background-image: linear-gradient(90deg, #3c512c, #9bb988d4 30% );
+    ;
+    padding: 5px;
+}
+.conteudo-link {
+    text-decoration: none;
+    color:#599231;
+}
+.conteudo-div {
+    background-color: #cad3ae;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    padding-top: 0px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px #636a505a;
+}
+h4 {
+    font-size: 20px;
+    background-color: #959e7b;
+    color: white;
+    padding: 25px;
+    margin-right: -15px;
+    margin-left: -15px;
+    border-radius: 20px 20px 0px 0px;
+}
+.listas {
+    columns: 2;
+}
+footer {
+    background-color:#517736;
+    text-align: center;
+    color: white;
+    width: 1600;
+}
+footer > p {
+    padding: 10px;
+    font-size: 20px;
+}
