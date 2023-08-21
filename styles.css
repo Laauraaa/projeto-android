@@ -8,11 +8,10 @@ body {
 }
 .cabecalho {
     background-image: linear-gradient(180deg, #517736, #213612 30%);
-    background-attachment: fixed;
     margin-top: -22px;
     margin-left: -8px;
     margin-right: -8px;
-    padding: 40px;
+    padding: 50px;
     font-family: Arial, Helvetica, sans-serif
 }
 h1 {
@@ -46,7 +45,7 @@ nav > a:hover {
 main {
     background-color: #e1eac5;
     margin: auto;
-    min-width: 320px;
+    min-width: 300px;
     max-width: 800px;
     padding: 50px;
     padding-top: -20px;
